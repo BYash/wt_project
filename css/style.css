@@ -1,0 +1,35 @@
+#Heading {
+	
+	color: #ff9933;
+	text-align: center;
+}
+body #header1{
+	font-size: 70px;
+	text-align: left;
+	font-family: 'Patrick Hand SC', cursive;
+	margin: 0;
+	padding-top: 5px;
+	padding-left: 6px;
+	padding-bottom: 2px;
+	width: 100%;
+	top: 0;
+	color: #ff3300;
+	background-color: #ffffcc;
+	text-shadow: 2px 2px 1px #222222;
+}
+#footer{
+	bottom: 0;
+	background-color: transparent;
+}
+#logo{
+	height: 65px;
+	width: 70px;
+}
+body{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+sub{
+	color: #006666;
+}
