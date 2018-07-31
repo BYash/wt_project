@@ -1,0 +1,344 @@
+body nav.topbar {         /* The actual navigation bar. */
+  background-color: #066;
+  height: 50px;
+  margin-left: 0px;
+  overflow: hidden;
+  padding-top: 0px;
+  border-radius: 4px;
+}
+
+body nav.topbar a.active{
+    width: auto;
+  height: 60px;
+  margin: 0px;
+  white-space: 0px;
+  display: inline-block;
+  color: #ffffcc;
+  background-color: #ff7700;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 3;
+  letter-spacing: 0px;
+  text-decoration: none;
+  font-family: 'Share', cursive;
+}
+body nav.topbar a.navbar{
+  width: auto;
+  height: 60px;
+  margin: 0px;
+  white-space: 0px;
+  display: inline-block;
+  color: #ffffcc;
+  background-color: transparent;
+  padding-right: 4%;
+  padding-left: 4%;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 3;
+  letter-spacing: 0px;
+  text-decoration: none;
+font-family: 'Share', cursive;
+}
+
+body nav.topbar a.navbar:hover{
+
+   color: #ffffff;
+  background-color: #f20;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    background-color: #273660;
+    position: sticky;
+    top:0px;
+
+}
+
+li {
+  display:inline-block;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 25px;
+    color: #ffffcc;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Share', cursive;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #cc2222;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffd;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: #cc2222;
+}
+
+.dropdown-content a:hover {background-color: #aaa;color: #ffd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+#Heading {
+
+	color: #ff9933;
+	text-align: center;
+}
+#header1{
+  height: auto;
+  width: 99%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+/* Below this is the top bar containing the name and logo of the website.*/
+#header1 .logoname{
+  float: left;
+  height: 100px;
+	font-size: 70px;
+	text-align: left;
+	font-family: 'Patrick Hand SC', cursive;
+	margin: 0px;
+  overflow: hidden;
+  padding-bottom: 10px;
+	width: 70%;
+	color: #ff3300;
+	background-color: transparent;
+	text-shadow: 2px 2px 1px #222222;
+
+}
+#header1 .logoname sub{
+  color: #005533;
+}
+#header1 .logintab,{
+  height: auto;
+  width: 300px;
+  margin-right: 8%;
+  float: right;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+#header1 .logintab a{
+  padding: 5px 30px 5px 30px;
+  margin-right: 6px;
+  margin-left: 6px;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Share', cursive;
+  background-color: #087;
+  color: #ffc;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#header1 .logintab a:hover{
+  background-color: #055;
+  color: #fff;
+}
+#footr {
+background-color: #077;
+height: 40px;
+  width:100%;
+  color: #ffc;
+  overflow: hidden;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 4px;
+  bottom: 0;
+  text-align: center;
+}
+#footr small{
+
+}
+#footr small a{
+  margin-bottom: 0px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #f66;
+  align-self: baseline;
+}
+#footr small a:hover{
+  color:#fff;
+  background-color: transparent;
+}
+#logo{
+	height: 90px;
+	width: 130px;
+	border: solid;
+	border-width: 2px;
+	border-color: #077;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+body{
+height: 100%;
+width: 100%;
+text-align: center;
+margin-right: 0px;
+margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+  background-color: #ffffff;
+  }
+.content{
+  width: 1000px;
+  height:auto;
+  margin-right: 5%;
+  margin-left: 11%;
+  text-align: center;
+  }
+.content .regbox{
+  display: inline-block;
+  height: 300px;
+  width: 40%;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #00cccc;
+  margin-bottom: 5%;
+  margin-left: 6%;
+  margin-right: 3%;
+  text-align: center;
+    }
+  .regline{
+    border-width: 1px;
+    border: solid;
+    border-color: #f30;
+    margin-top: 30%;
+
+  }
+  .content .regbox .logintab{
+  height: auto;
+  width: 320px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-top: 25%;
+  }
+
+.content .regbox .logintab a{
+  padding: 4px 5px;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  border: solid;
+  border-width: 2px;
+  border-color: #ffc;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  text-decoration: none;
+  color: #ffffcc;
+  background-color: #40f;
+  }
+ .content .regbox .logintab a:hover{
+    color: #066;
+    background-color: #ffc;
+    border-color: #ffc;
+  }
+.homelines{
+  width: auto;
+  border:solid;
+  border-width: 1px;
+  border-color: #f30;
+}
+#disclaimer{
+  background-color: #555;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Share', cursive;
+}
+#stb{
+  align-self: center;
+  margin-left: 10%;
+  width: 80%;
+  color: red;
+  border: solid;
+  align-content: center;
+  height: auto;
+  text-decoration: none;
+  font-family: 'Itim', cursive;
+}
+#stb #stb1{
+  width: 40%;
+  display: inline-grid;
+  height: 350px;
+  background-color: #f1f1f1;
+  border: transparent;
+  border-radius: 10px;
+  border-width: thin;
+  border-color: #450;
+  margin: 15px 10px;
+
+}
+#stb #stb1 #chbox{
+  margin-top: 0px;
+  margin-left: 10px;
+display: inline-grid;
+font-size: 30px;
+  height: 55%;
+  width: 25%;
+  padding: 7px 7px;
+  border: solid;
+  border-radius: 5px;
+  border-color: cyan;
+  border-style: dashed;
+  color: #ffc;
+  background-color: #27399a;
+  text-shadow: 2px 2px 5px #430;
+}
+
+#stb #stb1 #chcost{
+
+  margin-right: 10px;
+  display: inline-grid;
+  text-shadow: 2px 2px 8px #444;
+}
+
+.bord_b_banner {
+    width: 976px;
+    height: 500px;
+    border-top: 2px solid #eaa206 !important;
+    border: 1px solid #c7c5c5;
+    margin: 10px auto 30px;
+    padding: 0;
+    text-align: left; /*background: url(../img/bordband/b_banner_bg.jpg) no-repeat bottom right;*/
+}
